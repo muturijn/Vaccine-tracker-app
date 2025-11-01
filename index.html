@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vaccine Tracking Dashboard</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: '#0D9488', // Teal 600
+              'primary-focus': '#0F766E', // Teal 700
+              'primary-content': '#ffffff',
+              secondary: '#0891B2', // Cyan 600
+              'secondary-focus': '#0E7490', // Cyan 700
+              accent: '#6366F1', // Indigo 500
+              neutral: '#374151', // Gray 700
+              'base-100': '#F9FAFB', // Gray 50
+              'base-200': '#F3F4F6', // Gray 100
+              'base-300': '#E5E7EB', // Gray 200
+              info: '#2563EB', // Blue 600
+              success: '#16A34A', // Green 600
+              warning: '#FBBF24', // Amber 400
+              error: '#DC2626', // Red 600
+            },
+          },
+        },
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "recharts": "https://aistudiocdn.com/recharts@^3.3.0",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.28.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/"
+  }
+}
+</script>
+</head>
+  <body class="bg-base-100">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>

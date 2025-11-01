@@ -1,0 +1,5 @@
+{
+  "name": " Vaccine Tracking Dashboard",
+  "description": "A comprehensive tool for monitoring vaccine distribution and managing patient vaccination records. It features a real-time dashboard with key metrics and a detailed patient database.",
+  "requestFramePermissions": []
+}
